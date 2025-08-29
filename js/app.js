@@ -1,5 +1,5 @@
 // Ganti dengan URL Web App Apps Script anda
-const WEBAPP_URL = "YOUR_WEBAPP_DEPLOY_URL_HERE";
+const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbxdMPHuWPLV_BX-mjAPxPD_v8YtdeG22JWclQV0keccCLQ4Il1pTUwsDKwKgRwHqLPR7g/exec";
 
 let questions = [];
 
@@ -65,3 +65,4 @@ document.getElementById("submitBtn").addEventListener("click", submitAnswers);
 
 loadPdf();
 loadQuestions();
+
